@@ -17,8 +17,8 @@ bl_info = {
 class PushOverSend():
 
     def __init__(self):
-        self.user = bpy.context.preferences.addons['blender_pushover'].preferences.user
-        self.token = bpy.context.preferences.addons['blender_pushover'].preferences.token
+        self.user = bpy.context.preferences.addons['blender-pushover'].preferences.user
+        self.token = bpy.context.preferences.addons['blender-pushover'].preferences.token
         self.context = ssl._create_unverified_context()
         self.conn = http.client.HTTPSConnection("api.pushover.net:443", context=self.context)
 
