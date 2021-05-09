@@ -5,7 +5,7 @@ A [Blender](https://www.blender.org) add-on to send [Pushover](https://pushover.
 Sends either a text notification or the image too.
 
 ## Installation
-Download and install add-on using .zip file which is just the zipped contents of the repository. Then add Pushover user name and token in preferences. The add-on behaviour is configured in the "Render Properties" tab.
+Download and install add-on using .zip file in [releases](https://github.com/james-bird/blender-pushover/releases), which is just the zipped contents of the repository. Then add Pushover user name and token in Blender add-on preferences. The add-on behaviour is configured in the "Render Properties" tab of the UI.
 
 ## N.B.
 Not extensively tested. Working but unfinished. Pull requests welcome.
